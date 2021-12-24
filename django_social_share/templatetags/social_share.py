@@ -57,7 +57,7 @@ def _build_url(request, obj_or_url):
 
 
 def _compose_tweet(text, url=None):
-    TWITTER_MAX_NUMBER_OF_CHARACTERS = 140
+    TWITTER_MAX_NUMBER_OF_CHARACTERS = 280
     TWITTER_LINK_LENGTH = 23  # "A URL of any length will be altered to 23 characters, even if the link itself is less than 23 characters long.
 
     # Compute length of the tweet
